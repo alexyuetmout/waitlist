@@ -30,7 +30,7 @@ export default function WaitlistForm() {
         setStatus('error');
         setMessage(data.error);
       }
-    } catch (error) {
+    } catch {
       setStatus('error');
       setMessage('网络错误，请稍后重试');
     }
